@@ -70,3 +70,21 @@ This should output the following:
  public | store         | table | postgres
 (15 rows)
 ```
+
+# Creating Python environment
+
+A `conda.yml` is provided to create a conda virtual environment using [miniconda3](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
+
+Execute the command:
+
+```bash
+$ conda env create -f conda.yml
+```
+
+to create the `intro-to-dw` environment.
+
+Activate it by running:
+
+```bash
+$ conda activate intro-to-dw
+```
